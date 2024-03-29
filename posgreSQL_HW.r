@@ -14,7 +14,7 @@ con <- dbConnect(
   host = "arjuna.db.elephantsql.com", # server
   dbname = "snxkebes", # User & Default database
   user = "snxkebes", # User & Default database
-  password = "BnEq_XGRysI4igyLL91sfy2ZG9isdhos",
+  password = "*********",
   port = 5432 # for PostgreSQL
 )
 
