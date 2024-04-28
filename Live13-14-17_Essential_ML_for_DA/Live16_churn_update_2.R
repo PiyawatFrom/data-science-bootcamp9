@@ -157,7 +157,7 @@ confusionMatrix(p_glmnet , test_df$churn ,
                 mode = "prec_recall")  
 
 
-
+## select RandanForest Model
 ## evaluate for RandanForest
 set.seed(47)
 ctrl2 <- trainControl(method = "repeatedcv",
